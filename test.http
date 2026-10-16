@@ -1,0 +1,9 @@
+### Register a new user
+POST http://localhost:8081/api/users/register
+Content-Type: application/json
+
+{
+  "username": "alex_trader",
+  "email": "alex@nexustrade.com",
+  "password": "securepassword123"
+}
